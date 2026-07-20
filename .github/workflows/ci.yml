@@ -28,4 +28,7 @@ jobs:
       - run: dotnet pack src/DotService.Hosting/DotService.Hosting.csproj -c Release --no-build -o artifacts/packages
       - run: dotnet pack src/DotService.Packaging/DotService.Packaging.csproj -c Release --no-build -o artifacts/packages
       - run: dotnet pack src/DotService.Cli/DotService.Cli.csproj -c Release --no-build -o artifacts/packages
-
+      - name: Exercise disposable Windows service lifecycle
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: ./tests/DotService.Integration/Run-WindowsIntegration.ps1

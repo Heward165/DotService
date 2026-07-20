@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "name": "DotService.Example",
+  "displayName": "DotService SCM Integration Test",
+  "description": "Disposable service used only by the hosted Windows integration test.",
+  "executable": "../../examples/DotService.Example/bin/Release/net10.0/win-x64/publish/DotService.Example.exe",
+  "startMode": "manual",
+  "account": "localSystem",
+  "arguments": [],
+  "dependencies": [
+    "EventLog"
+  ],
+  "recovery": {
+    "restartAttempts": 1,
+    "restartDelay": "00:00:05",
+    "resetPeriod": "01:00:00",
+    "applyToNonCrashFailures": true
+  }
+}
+

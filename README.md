@@ -114,5 +114,7 @@ dotnet test tests/DotService.Tests -c Release --no-build
 dotnet run --project tests/DotService.Conformance -c Release --no-build
 ```
 
-DotService is licensed under the [MIT License](LICENSE). Security reports should follow [SECURITY.md](SECURITY.md).
+CI additionally runs a Windows-only disposable SCM integration test that publishes the example, installs and starts the
+real service, verifies its state, stops and restarts it, and removes it in a `finally` block.
 
+DotService is licensed under the [MIT License](LICENSE). Security reports should follow [SECURITY.md](SECURITY.md).

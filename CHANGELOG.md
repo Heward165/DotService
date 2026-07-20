@@ -8,4 +8,4 @@
 - Add delayed automatic start, dependencies, passwordless accounts, and recovery policies.
 - Add cancellation-aware state waiting, transactional configuration rollback, and preflight diagnostics.
 - Add the `dotservice` global tool, an example worker, unit tests, and dependency-free conformance checks.
-
+- Add a disposable hosted-Windows integration test for the complete install/start/stop/restart/uninstall lifecycle.
