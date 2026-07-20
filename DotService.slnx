@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="src/DotService.Hosting/DotService.Hosting.csproj" />
+  <Project Path="src/DotService.Packaging/DotService.Packaging.csproj" />
+  <Project Path="src/DotService.Cli/DotService.Cli.csproj" />
+  <Project Path="examples/DotService.Example/DotService.Example.csproj" />
+  <Project Path="tests/DotService.Tests/DotService.Tests.csproj" />
+  <Project Path="tests/DotService.Conformance/DotService.Conformance.csproj" />
+</Solution>
+

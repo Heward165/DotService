@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "name": "DotService.Example",
+  "displayName": "DotService Example Worker",
+  "description": "Demonstrates a cancellation-aware .NET worker deployed with DotService.",
+  "executable": "bin/Release/net10.0/win-x64/publish/DotService.Example.exe",
+  "startMode": "automaticDelayed",
+  "account": "localService",
+  "arguments": [],
+  "dependencies": [
+    "EventLog"
+  ],
+  "recovery": {
+    "restartAttempts": 3,
+    "restartDelay": "00:01:00",
+    "resetPeriod": "1.00:00:00",
+    "applyToNonCrashFailures": true
+  }
+}
+

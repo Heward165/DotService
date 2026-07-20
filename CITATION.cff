@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If DotService supports your work, please cite the software repository."
+title: "DotService"
+type: software
+authors:
+  - family-names: "Vansley"
+    given-names: "Valdo"
+repository-code: "https://github.com/Heward165/DotService"
+license: MIT
+version: "0.1.0-preview.1"
+date-released: "2026-07-20"
+
